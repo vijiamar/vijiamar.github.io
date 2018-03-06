@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    height: 50px;
+    align-items: center;
+    height: 60px;
     position: fixed;
+	
 }
 
 .nav-flex > a{
@@ -13,6 +14,8 @@
     text-decoration: none;
 	font-family: verdana;
 	letter-spacing: 1px;
+	font-size: 22px;
+	color: white;
 }
 
 .nav-flex > a:hover{
@@ -26,7 +29,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	
 } 
 
 /* First image (Home) */
@@ -35,6 +37,23 @@
     min-height: 100%;
   
 }
+
+
+.content {
+    position: absolute; 
+    bottom: 10; 
+    background: rgba(0, 0, 0, 0.3); 
+    width: 90%; 
+	padding: 15px;
+    height: 100px;
+	color: white;
+	font-family: verdana;
+	font-size: 20px;
+	letter-spacing: 1px;
+	overflow: auto;
+}
+
+
 
 /* Second image (Portfolio) */
 .bgimg2 {
@@ -54,7 +73,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 300px;
+    height: 700px;
     font-family: verdana;
     letter-spacing: 1px;
     color: gray;
@@ -64,7 +83,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 500px;
+    height: 700px;
     font-family: verdana;
     letter-spacing: 1px;
     color: gray;
@@ -74,7 +93,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 200px;
+    height: 300px;
     font-family: verdana;
     letter-spacing: 1px;
     color: gray;
@@ -83,14 +102,38 @@
 
 .footer-flex{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    height: 50px;
     justify-content: center;
-    background-color: aliceblue;
+	align-items: center;
+	padding: 10px;
+	height: 200px;
+    background-color: gray;
     font-family: verdana;
+	font-size: 25px;
     letter-spacing: 1px;
-    color: gray;
+    color: white;
 }
+
+.footer-flex > a{
+    color: black;
+	background-color: white;
+    padding: 5px 20px 5px 20px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+    text-decoration: none;
+	font-family: verdana;
+	letter-spacing: 1px;
+	font-size: 15px;
+	
+}
+
+.footer-flex > a:hover{
+    color: white;
+	background-color: gray;
+        
+}
+
+
 
 
