@@ -1,0 +1,96 @@
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 50px;
+    position: fixed;
+}
+
+.nav-flex > a{
+    color: black;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+	font-family: verdana;
+	letter-spacing: 1px;
+}
+
+.nav-flex > a:hover{
+    color: #9c6435;
+        
+}
+
+/*Parallax Image common Style*/
+.bgimg1, .bgimg2, .bgimg3{
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+} 
+
+/* First image (Home) */
+.bgimg1 {
+    background-image: url("../image/parallax1.jpg");
+    min-height: 100%;
+  
+}
+
+/* Second image (Portfolio) */
+.bgimg2 {
+    background-image: url("../image/parallax2.jpg");
+    min-height: 400px;
+        
+}
+
+/* Third image (Contact) */
+.bgimg3 {
+    background-image: url("../image/parallax3.jpg");
+    min-height: 400px;
+    
+}
+
+.section-about-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    font-family: verdana;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.section-portfoio-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    font-family: verdana;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.section-contact-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    font-family: verdana;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
+    justify-content: center;
+    background-color: aliceblue;
+    font-family: verdana;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+
