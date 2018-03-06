@@ -37,8 +37,7 @@
     min-height: 100%;
   
 }
-
-
+/* Content Inside the 1st Image bgimg1   */ 
 .content {
     position: absolute; 
     bottom: 10; 
@@ -52,7 +51,6 @@
 	letter-spacing: 1px;
 	overflow: auto;
 }
-
 
 
 /* Second image (Portfolio) */
@@ -99,6 +97,24 @@
     color: gray;
 }
 
+.section-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60px;
+	justify-content: center;
+	align-items: center;
+	background-color: #bdb3a9;
+  
+}
+
+.section-logo > img{
+	width: auto;
+	height: 20px;
+	padding: 5px;
+	margin: 5px;
+}
+
 
 .footer-flex{
     display: flex;
@@ -108,17 +124,17 @@
 	align-items: center;
 	padding: 10px;
 	height: 200px;
-    background-color: gray;
+    background-color: #bdb3a9;
     font-family: verdana;
 	font-size: 25px;
     letter-spacing: 1px;
     color: white;
 }
 
-.footer-flex > a{
+.footer-flex > #ttop{
     color: black;
 	background-color: white;
-    padding: 5px 20px 5px 20px;
+    padding: 5px;
 	margin-bottom: 50px;
 	border-radius: 5px;
     text-decoration: none;
@@ -128,11 +144,12 @@
 	
 }
 
-.footer-flex > a:hover{
+.footer-flex > #ttop:hover{
     color: white;
 	background-color: gray;
         
 }
+
 
 
 
