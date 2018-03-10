@@ -5,7 +5,8 @@
     align-items: center;
     height: 60px;
     position: fixed;
-	
+	background: rgba(189, 179, 169, 0.3); 
+    border-radius: 5px;
 }
 
 .nav-flex > a{
@@ -16,6 +17,7 @@
 	letter-spacing: 1px;
 	font-size: 22px;
 	color: white;
+    
 }
 
 .nav-flex > a:hover{
@@ -105,7 +107,7 @@
     height: 60px;
 	justify-content: center;
 	align-items: center;
-	background-color: #bdb3a9;
+	background-color: #d1cbcd; 
   
 }
 
@@ -124,8 +126,8 @@
     justify-content: center;
 	align-items: center;
 	padding: 10px;
-	height: 200px;
-    background-color: #bdb3a9;
+	height: 120px;
+    background-color: #d1cbcd;
     font-family: verdana;
 	font-size: 25px;
     letter-spacing: 1px;
