@@ -13,9 +13,9 @@
     color: black;
     padding: 5px 20px 5px 20px;
     text-decoration: none;
-	font-family: verdana;
+	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
-	font-size: 22px;
+	font-size: 24px;
 	color: white;
     
 }
@@ -42,18 +42,21 @@
 /* Content Inside the 1st Image bgimg1   */ 
 .content {
     position: absolute; 
-    bottom: 10; 
+    bottom: 20px; 
     background: rgba(0, 0, 0, 0.3); 
     width: 90%; 
 	padding: 15px;
-    height: 120px;
+    height: 80px;
 	color: white;
-	font-family: verdana;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	letter-spacing: 1px;
 	overflow: auto;
     text-align: justify;
 }
+
+
+
 
 
 /* Second image (Portfolio) */
