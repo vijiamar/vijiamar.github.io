@@ -1,0 +1,180 @@
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    //top: -120px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px; 
+    width: 100%;
+    background-color: #2b304c;  
+    //transition: top 0.3s;
+}
+
+.nav1 > a{    
+    padding: 5px 20px 5px 20px;    
+	font-family: 'Roboto', sans-serif;
+	//letter-spacing: 1px;
+	font-size: 75px;
+	text-decoration: none;
+    color: white;
+    
+}
+
+.nav1 >a:hover{
+    color: #333959;
+    text-decoration: none;
+    
+    
+}
+
+.nav2 > a{    
+    padding: 5px 20px 5px 20px;    
+	font-family: 'Roboto', sans-serif;
+	//letter-spacing: 1px;
+	font-size: 15px;
+	text-decoration: none;
+    color: white;
+}
+
+.nav2 >a:hover{
+    color: #333959;
+    text-decoration: none;
+}
+
+.viji{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 800px;
+    top: -120px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    //letter-spacing: 1.5px;
+    background-color: #333959;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.viji1 > img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.viji1 > div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.viji2 > div{
+    font-family: 'Roboto', sans-serif;
+    color: white;    
+    font-size: 30px;
+}
+
+.viji3 > div{
+   font-size: 25px;
+    text-decoration: none;
+}
+
+.portfolio{
+    display: flex;
+    //flex-direction: column;
+    flex-wrap: nowrap;
+    height: 600px;
+    //width: 50%;
+    font-family: 'Roboto', sans-serif;
+    //letter-spacing: 1.5px;
+    background-color: #333959;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    
+}
+
+.portfolio1 > div{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+.portfolio2 > div{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    height:auto;
+    margin: 20px;
+    padding: 20px;
+    border-left: solid 6px white;
+    width: 600px;
+}
+
+.about{
+    display: flex;
+    //flex-direction: column;
+    flex-wrap: nowrap;
+    height: 600px;
+    //width: 50%;
+    font-family: 'Roboto', sans-serif;
+    //letter-spacing: 1.5px;
+    background-color: #333959;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    
+}
+
+.about1 > div{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.about2 > div{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    height:auto;
+    margin: 20px;
+    padding: 20px;
+    border-left: solid 6px white;
+    width: 600px;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+	align-items: center;
+	padding: 10px;
+    height: 60px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+    //letter-spacing: 1.5px;
+    background-color: #2b304c;
+    color: white;
+}
+
+
+
+
